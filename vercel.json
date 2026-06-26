@@ -1,0 +1,4 @@
+{
+  "outputDirectory": "Frontend/dist",
+  "buildCommand": "npm run build"
+}
