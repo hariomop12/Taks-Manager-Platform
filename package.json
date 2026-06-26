@@ -2,7 +2,7 @@
   "name": "task-manager-platform",
   "private": true,
   "scripts": {
-    "build": "pnpm --filter frontend run build",
+    "build": "pnpm install && pnpm --filter frontend run build",
     "start": "node Backend/src/server.js"
   }
 }
